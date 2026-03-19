@@ -1,0 +1,25 @@
+Dokumentacja 22.2
+
+/*
+
+nazwa funkcji: OnEmailTextChanged
+opis funkcji: funkcja sprawdza czy wpisujemy email czyli czy zawiera kropke, malpe, i czy nie ma pustego pola, jeśli cos jest nie tak pokazuje się label z errorem
+Oraz jeśli wpiszemy prawidłowo haslo i email funkcja zmienia kolor przycisku, jeśli dane sa niepoprawne to na szary jeśli poprawne na zielone
+parametry: -
+zwracany typ i opis: -
+
+nazwa funkcji: OnPasswordTextChanged
+opis funkcji: sprawdza dlugosc hasla oraz czy nie ma pustego pola jeśli cos jest nie tak zmienia widoczność labela o errorze
+Oraz jeśli wpiszemy prawidłowo haslo i email funkcja zmienia kolor przycisku, jeśli dane sa niepoprawne to na szary jeśli poprawne na zielone
+parametry: -
+zwracany typ i opis: -
+
+
+nazwa funkcji: OnLoginClicked
+opis funkcji: funkcja wyswietla alert o poprawnym zalogowaniu po sprawdzeniu czy wszystko się zgadza, jeśli nie wyswietla alert o niepoprawnym zalogowaniu
+parametry: -
+zwracany typ i opis: -
+
+
+autor: Kacper Wandzak
+*/
