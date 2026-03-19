@@ -1,0 +1,35 @@
+Dokumentacja 22.4
+
+/*
+nazwa funkcji: IsEmailValid
+opis funkcji: sprawdza czy w entry emaila nie ma białych znakow lub czy jest puste pole, czy jest znak @ i . typowe dla emaila
+parametry: string email, List<string> errors
+zwracany typ i opis: bool true i false
+
+nazwa funkcji: IsValidPassword
+opis funkcji: sprawdza czy w entry hasla wpisujemy biala znaki lub zostawiamy biale pole oraz sprawdza dlugosc
+parametry: -
+zwracany typ i opis: bool true i false
+
+nazwa funkcji: IsValidCPassword
+opis funkcji: sprawdza czy hasla sa takie same i  te same rzeczy co w zwykłym passwordzie
+parametry: - string confirmPassword, List<string> errors
+zwracany typ i opis: bool true i false
+
+nazwa funkcji: IsValidageText
+opis funkcji: sprawdza czy wpisaliśmy prawidłowy wiek jeśli nie wysyla alert albo o tym ze mamy poniżej 13 
+parametry: -
+zwracany typ i opis: bool true i false
+
+nazwa funkcji: IsValidtermsAccepted
+opis funkcji: sprawdza czy mamy zaznaczony pole z akceptowaniem regulaminu
+parametry: termsAccepted, list errors
+zwracany typ i opis: bool true i false
+
+nazwa funkcji: IsPasswordStrong
+opis funkcji: sprawdza sile hasla czyli czy nie jest puste, czy ma na pewno 8 znakow, sprawdza czy zawiera wielka litere, czy zawiera cyfre, jeśli haslo jest za krótkie również wyswietla komunikat z bledem
+parametry: 
+zwracany typ i opis: bool true i false
+
+autor: Kacper Wandzak
+*/
